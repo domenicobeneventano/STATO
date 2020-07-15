@@ -1,0 +1,89 @@
+Oggetto: Ricevuta di ritorno (visualizzata) -ESAME DI STATO INGEGNERE - SETTORE INDUSTRIALE – Sezione A 17 Luglio 2020 Pomeriggio
+Mittente: Fabio Peluso <pelusofabio95@libero.it>
+Data: 14/07/2020, 14:23
+A: esamestatoingegnere1sessione2020@unimore.it
+
+Questa è la Ricevuta di ritorno del messaggio inviato a pelusofabio95@libero.it.
+
+Nota: questa Ricevuta di ritorno attesta solamente che il messaggio è stato visualizzato nel computer del destinatario. Non c'è pertanto alcuna garanzia che il destinatario abbia letto o compreso il suo contenuto.
+
+
+MDNPart2.txt
+
+Reporting-UA: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Thunderbird/68.10.0
+Final-Recipient: rfc822;pelusofabio95@libero.it
+Original-Message-ID: <CA+cYrx700-9ZZAgoX5FtyietkLAYTvP1ksGEvJB76a3Bxu70CQ@mail.gmail.com>
+Disposition: manual-action/MDN-sent-manually; displayed
+
+
+MDNPart3.txt
+
+Return-Path: <esamestatoingegnere1sessione2020@unimore.it>
+Delivered-To: pelusofabio95@libero.it
+Received: from dcd-20 ([10.103.10.24])
+	by dcbackend-47.iol.local with LMTP id QLCtL+2ODV8p9AcA8p1YQw
+	for <pelusofabio95@libero.it>; Tue, 14 Jul 2020 12:54:37 +0200
+Received: from dcp-21.iol.local ([10.103.10.24])
+	by dcd-20 with LMTP id eH+DL+2ODV9hWwEAW4gg+A
+	; Tue, 14 Jul 2020 12:54:37 +0200
+Received: from libero.it ([10.103.10.24])
+	by dcp-21.iol.local with LMTP id MONXJu2ODV8VmAEA80XSEw
+	; Tue, 14 Jul 2020 12:54:37 +0200
+Received: from mail-wm1-f54.google.com ([209.85.128.54])
+	by smtp-24.iol.local with ESMTP
+	id vIWfjWajisC9MvIa5jc5uB; Tue, 14 Jul 2020 12:54:37 +0200
+X-IOL-DMARC: pass con il dominio unimore.it 
+X-IOL-DKIM: pass con il dominio d=unimore.it
+X-IOL-SPF: pass con l'IP 209.85.128.54;unimore.it
+X-IOL-SEC: _SPFOK_DKIMOK_DMARCOK
+x-fbsn: gmail.com
+x-libjamoibt: 2601
+Received-SPF: pass
+X-CNFS-Analysis: v=2.3 cv=IKF89TnG c=1 sm=1 tr=0
+ a=cmaO/NQVMQV80KAlR7/03A==:117 a=_RQrkK6FrEwA:10 a=5KLPUuaC_9wA:10
+ a=1XWaLZrsAAAA:8 a=ZKGpuBgYIakZlQtKWh8A:9 a=QEXdDO2ut3YA:10
+ a=Y9hWaUNyi9H_1DZb:21 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22
+Authentication-Results: smtp-24.iol.local;
+	dkim=pass header.d=unimore.it header.b=m5dLDJKn
+Received: by mail-wm1-f54.google.com with SMTP id c80so2114144wme.0
+        for <pelusofabio95@libero.it>; Tue, 14 Jul 2020 03:54:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=unimore.it; s=google;
+        h=mime-version:disposition-notification-to:from:date:message-id
+         :subject:to;
+        bh=5mYeMTHZRTv/CHTZnZTEDk+8oVxk+tR945NWu1AOUec=;
+        b=m5dLDJKnj4FrYObUf6UyGhqvsGxZYnEVZOum7lJ/E6r4TmeyNjeAwczSjIZAj2WrSs
+         MzON4ogYZuqyIrL0+aSP9luw9Tc366XngJRjk/EwDEMxPtzFdZ7Fy6Vtl7SkPI4c1Ldc
+         6beQg1apBZzHngoO4GVJ0/aIuLqxyF2l7qeEo=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:disposition-notification-to:from
+         :date:message-id:subject:to;
+        bh=5mYeMTHZRTv/CHTZnZTEDk+8oVxk+tR945NWu1AOUec=;
+        b=t7EBGkuF4xgJiGYWkuqSarKsu65E5+aSrVvOI0ZOZO90larpnJJIWXhwZvNhZKZDjK
+         sNEVPwjffYcwnTWRkAwUbHDfiuzCOdv/bMXnpiEd9ItkWGk11KdHBfWfEsQandmegW1h
+         0gHE/ix2G7owbMhlcpBY9ofMYBckaeQsZqjAIS9O5SxHUfUnoNZZpxTmP9GL47wZny7V
+         pidPmUOgejSYonKF+YHKHwnmmB9DkyywuwY6vhPURGZLNpOfcRYIw1M8YqugVjr/BNmm
+         zzTCyq5MPsg8mq8fi3sRCdrG8W8k2jmd5sWsugB+T9FYLbEVlYu2TqVaTVebygOReA8e
+         cIJw==
+X-Gm-Message-State: AOAM530cYQpE+X8lKiP0pX8r5/NaSECkPGZT4QtuvYxNE3yCFUeAnGK1
+	yfPBlKIUh/H28mE0gmjTxfKombtnb/riAdw2XddaUHoyjJ4=
+X-Google-Smtp-Source: ABdhPJzgi1rjDqbPLj6wqcvbK6VB1tmFtYunBz/yGy9LiAC0kOW2IFMZAh76jGfm5UbGqqBp+FlGvE7PxOsymKPYUQQ=
+X-Received: by 2002:a05:600c:2116:: with SMTP id u22mr3662584wml.82.1594724077292;
+ Tue, 14 Jul 2020 03:54:37 -0700 (PDT)
+MIME-Version: 1.0
+Disposition-Notification-To: esamestatoingegnere1sessione2020@unimore.it
+From: esamestatoingegnere1sessione2020 Unimore <esamestatoingegnere1sessione2020@unimore.it>
+Date: Tue, 14 Jul 2020 12:54:26 +0200
+Message-ID: <CA+cYrx700-9ZZAgoX5FtyietkLAYTvP1ksGEvJB76a3Bxu70CQ@mail.gmail.com>
+Subject: =?UTF-8?Q?ESAME_DI_STATO_INGEGNERE_=2D_SETTORE_INDUSTRIALE_=E2=80=93_S?=
+	=?UTF-8?Q?ezione_A_17_Luglio_2020_Pomeriggio?=
+To: PELUSO FABIO <pelusofabio95@libero.it>
+Content-Type: multipart/alternative; boundary="00000000000024634805aa64a2e7"
+X-CMAE-Envelope: MS4wfEw7rsUpz7pTrSSzyZFG6VnMcBJL76vdHj/+dEaRZIDe+iHNaxjue69uyCUdD032LdpCrYkaCuzgqXA4qUB82m0bw2hsXci/HzYzVvUjFu5LNc0jeNZp
+ 3LqqO4QhjjVU7OjWO5G1uE/IGCoFeuKQetwXYzfhLg5vvf7tVuGdVLJQDhqXSFZv68o7eiXL2a88E67Kfh8NYs7s1A+CkvS4FaiEjwJ3ZtROzHQhxk42j+AN
+
+
+Allegati:
+MDNPart2.txt	293 bytes
+MDNPart3.txt	3,7 kB

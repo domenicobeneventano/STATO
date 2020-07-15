@@ -1,0 +1,16 @@
+Oggetto: Notifica di lettura
+Mittente: rosarioaliperti@libero.it
+Data: 14/07/2020, 14:11
+A: esamestatoingegnere1sessione2020@unimore.it
+
+Questa è una notifica di lettura per il messaggio di posta inviato il 14 luglio
+2020 a rosarioaliperti@libero.it con oggetto "ESAMI DI STATO INGEGNERE - SETTORE
+INFORMAZIONE – Sezione A 17 Luglio 2020 Pomeriggio".
+
+Nota: questa notifica di lettura attesta unicamente che il messaggio è stato
+visualizzato sul computer del destinatario. Non è possibile garantire che il
+destinatario abbia letto o compreso il contenuto del messaggio.
+
+
+Allegati:
+MDNPart1.txt	238 bytes
