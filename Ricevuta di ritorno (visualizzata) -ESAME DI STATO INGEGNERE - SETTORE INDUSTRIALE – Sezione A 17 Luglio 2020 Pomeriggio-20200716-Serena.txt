@@ -1,0 +1,96 @@
+Oggetto: Ricevuta di ritorno (visualizzata) -ESAME DI STATO INGEGNERE - SETTORE INDUSTRIALE – Sezione A 17 Luglio 2020 Pomeriggio
+Mittente: Serena <morselliserena@gmail.com>
+Data: 16/07/2020, 12:35
+A: esamestatoingegnere1sessione2020@unimore.it
+
+Questa è la Ricevuta di ritorno del messaggio inviato a morselliserena@gmail.com.
+
+Nota: questa Ricevuta di ritorno attesta solamente che il messaggio è stato visualizzato nel computer del destinatario. Non c'è pertanto alcuna garanzia che il destinatario abbia letto o compreso il suo contenuto.
+
+
+MDNPart2.txt
+
+Reporting-UA: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:68.0) Gecko/20100101 Thunderbird/68.10.0
+Final-Recipient: rfc822;morselliserena@gmail.com
+Original-Message-ID: <CA+cYrx5pNXie12RZ0inr4MR9Gr2f8EQDMj+OT_rGeLMa7v3i3Q@mail.gmail.com>
+Disposition: manual-action/MDN-sent-manually; displayed
+
+
+MDNPart3.txt
+
+Delivered-To: morselliserena@gmail.com
+Received: by 2002:a25:de4a:0:0:0:0:0 with SMTP id v71csp1587787ybg;
+        Tue, 14 Jul 2020 03:54:50 -0700 (PDT)
+X-Received: by 2002:a1c:9a07:: with SMTP id c7mr3747268wme.147.1594724090648;
+        Tue, 14 Jul 2020 03:54:50 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1594724090; cv=none;
+        d=google.com; s=arc-20160816;
+        b=EQ7ZBuZKmCtJTb43R6kcKahDtoy2eJt92KYM6M5WSMpR6Ay6GzVMAo+VWLkm9k/mwv
+         BlcsOpXgJ35lwTh5L7NjiqdN8/kPQ+hXbEZmIB5G5yvWj0A619qTmFF/XzBHFPbrQl7J
+         YTNxsqwn7lUiBsqQs4XOLRvDaVZvyFYp81LMm61zWyVZ8ZE8LPxZscIHst4MtCQsXyGo
+         m0RIzDmLKXzZPL7UGdfAkM8Cft1DqlQJ5ro0q+nMWOO7gtTaU3s+BXLzZecTv2FtrRju
+         hWNZvGAoTf4NuyppVpQQa1jwv8iBxlh6IrtfB7YepERSiQJeTbcLkWtS9v3W8V6zN9XK
+         VwTg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:disposition-notification-to
+         :mime-version:dkim-signature;
+        bh=/s4+jS8KIprdxv0uH0AnEb9zM6iRe5U8Vhf58SGmJ5k=;
+        b=Sg9/JXQCdrCMYNsei/f0VWIHpW+q50u5VBGFZwGOk4RQxhaO3MmJPtb9JixuiwKASw
+         XPBNcfwCEknhP0YUz0R0mB5k305kkLzqdGz+TiM1QaLaBOEZsXuCOJH3S3SVU2PlTWRu
+         GqM1ihroWnwEbuRRBJp5iSnP1YovLWe+aHGFa39oJgxZhPrX7Kwt40MQPog9R4t4e36Y
+         MqwcVHfO9DUNZab65Rq9+JH/4r519cnmGNp7zVvhCuePRxZpdQJxPB9FTNUCHxvj6RZP
+         LSAIbXIZP+fLB5w7wWdyHqynyiWrZDIj3j0q7rKu94emdQtUHlvGxt4n/75V6S+m7WJ6
+         4jvA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@unimore.it header.s=google header.b=OfiqEJpb;
+       spf=pass (google.com: domain of esamestatoingegnere1sessione2020@unimore.it designates 209.85.220.41 as permitted sender) smtp.mailfrom=esamestatoingegnere1sessione2020@unimore.it;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=unimore.it
+Return-Path: <esamestatoingegnere1sessione2020@unimore.it>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id s1sor1450172wme.1.2020.07.14.03.54.50
+        for <morselliserena@gmail.com>
+        (Google Transport Security);
+        Tue, 14 Jul 2020 03:54:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of esamestatoingegnere1sessione2020@unimore.it designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@unimore.it header.s=google header.b=OfiqEJpb;
+       spf=pass (google.com: domain of esamestatoingegnere1sessione2020@unimore.it designates 209.85.220.41 as permitted sender) smtp.mailfrom=esamestatoingegnere1sessione2020@unimore.it;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=unimore.it
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=unimore.it; s=google;
+        h=mime-version:disposition-notification-to:from:date:message-id
+         :subject:to;
+        bh=/s4+jS8KIprdxv0uH0AnEb9zM6iRe5U8Vhf58SGmJ5k=;
+        b=OfiqEJpbliXUGGdKHHN0aGVbLOgFczL3aIVUTTs3n29bXpXgH49LGu81A62ko4k1pu
+         n9LACVEWmmQSV7PlnMDfW42ScmMatA5cmBv7EeCAnAvI8LvII/qEAz3pXSe2KOKt43m/
+         6jMcSsxNMfn8OeNE2nXaQ9XUNMo95cFsNOy2o=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:disposition-notification-to:from
+         :date:message-id:subject:to;
+        bh=/s4+jS8KIprdxv0uH0AnEb9zM6iRe5U8Vhf58SGmJ5k=;
+        b=RtlKoXzUWojvm2DlUdAbA2u8BQ2QEVr9tXnqo3uIaq9MZgmnDbhNl5TnLrckfD9WWZ
+         eRl0Lwf7ThBTwxHkJRv4EXkUNv963Lcv0eD2GBaW6MM2v10CzUXizny4yJFpzdzyyLiK
+         kTermLNAILHKXtaCHjG+PKwxbhFLRXy7Mw4T4OOCaVD1P/IO0HsQf0+y4d+7D32Nnoxx
+         +sOFBlG9Qf374eRNKh73bllYYIrAZD7xtEvLUA+XPfI/CQlo19mJe6rWjOH2IhIbXt9o
+         ZN7x+owomjdatxwpWhu8+qw1NhB0codSkbQj7ay8QKOFh6w3pGz1PRMm5uqtcXAaAm3y
+         zxQg==
+X-Gm-Message-State: AOAM531yjozelkFGoOWLJkVFrvlp4Q8sp9tfq4eM1P1kXu8RiFC7FEh5
+	1/cw0nNw0YQ+uIKrKL9ZRmQvXmlFZwL6FoL0jnyn50CW2ns=
+X-Google-Smtp-Source: ABdhPJzTejJ32XzQeN/i3VvSZu+3xOtqbcRCpBNw3h7BatlEPUr5XVpMXevDS7ItLgfZp5F5uTAP0QcSmhm8gvWZzGc=
+X-Received: by 2002:a1c:cc0c:: with SMTP id h12mr3916718wmb.140.1594724090110;
+ Tue, 14 Jul 2020 03:54:50 -0700 (PDT)
+MIME-Version: 1.0
+Disposition-Notification-To: esamestatoingegnere1sessione2020@unimore.it
+From: esamestatoingegnere1sessione2020 Unimore <esamestatoingegnere1sessione2020@unimore.it>
+Date: Tue, 14 Jul 2020 12:54:39 +0200
+Message-ID: <CA+cYrx5pNXie12RZ0inr4MR9Gr2f8EQDMj+OT_rGeLMa7v3i3Q@mail.gmail.com>
+Subject: =?UTF-8?Q?ESAME_DI_STATO_INGEGNERE_=2D_SETTORE_INDUSTRIALE_=E2=80=93_S?=
+	=?UTF-8?Q?ezione_A_17_Luglio_2020_Pomeriggio?=
+To: MORSELLI SERENA <morselliserena@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000e8014d05aa64a2dd"
+
+
+Allegati:
+MDNPart2.txt	293 bytes
+MDNPart3.txt	4,7 kB
